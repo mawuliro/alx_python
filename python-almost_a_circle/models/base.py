@@ -1,26 +1,21 @@
 #!/usr/bin/python3
 
-"""This class will be the “base” of all other classes in this project.
- The goal of it is to manage id attribute in all your future classes 
- and to avoid duplicating the same code (by extension, same bugs)
-"""
-
 class Base:
-    """class attribute
+    """Base model.
 
-    Args:
-        __nb_objects:(int) number of objects created
-    Returns:
-        return: the number of created objects
+    This Represents the "base" for all other classes in project.
+
+    Private Class Attributes:
+        __nb_object (int): Number of instantiated Bases.
     """
+
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """Instance attribute
+        """Initialize a new Base.
+
         Args:
-            id: (int)  
-        Returns:
-            return id if id is not None
+            id (int): The identity of the new Base.
         """
         if id is not None:
             self.id = id
