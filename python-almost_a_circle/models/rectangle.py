@@ -168,5 +168,4 @@ class Rectangle(Base):
                 elif k == "x":
                     self.x = v
                 elif k == "y":
-                    self.y = v
-  
+                    self.y = v  
