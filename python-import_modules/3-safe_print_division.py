@@ -8,8 +8,9 @@ def safe_print_division(a, b):
         The return value. a / b
     """
     try:
-        result = a / b
+        solution = a / b
     except ZeroDivisionError:
-        result = None
+        solution = None
     finally:
+        result = solution
         print("Inside result: {}".format(result))
