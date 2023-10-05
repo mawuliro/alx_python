@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+
+"""
+   A script to retrieve data in json format
+"""
+
 import json
 import requests
 import sys
