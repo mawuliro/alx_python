@@ -16,6 +16,6 @@ todo_list = response.json()
 
 # Write to CSV file
 with open(f"{employee_id}.csv", mode="w", newline="") as file:
-    writer = csv.writer(file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer = csv.writer(file, delimiter=",", quotechar='"', quoting=csv.QUOTE_ALL)
     for task in todo_list:
         writer.writerow([employee_id, employee_name, task["completed"], task["title"]])
