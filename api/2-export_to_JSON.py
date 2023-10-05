@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-"""
-    A script to retrieve data in json format
+"""A script to retrieve data in json format
     Args:
         todo_list : data retrieved from the website
 
     todo:
         json_object: json format
-
 """
-def func():
-    """This is a documented module"""
-    pass
 
 import json
 import requests
