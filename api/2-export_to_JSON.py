@@ -8,6 +8,9 @@
         json_object: json format
 
 """
+def func():
+    """This is a documented module"""
+    pass
 
 import json
 import requests
