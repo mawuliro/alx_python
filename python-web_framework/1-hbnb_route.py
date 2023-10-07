@@ -1,3 +1,6 @@
+"""Web application"""
+
+# import modules
 from flask import Flask
 
 app = Flask(__name__)
